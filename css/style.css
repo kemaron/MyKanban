@@ -1,12 +1,99 @@
-.board {
-  border: red solid;
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.create-column {
+  margin: 40px auto;
+  width: 100%;
+  background-color: #09044e;
+  color: white;
+  border-radius: 2px;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.create-column:hover {
+  background-color: #52b3e0;
+  color: white;
+}
+
+.column-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .column {
-  border: green solid;
+  position: relative;
+  padding: 0 10px;
+  width: 300px;
+  min-height: 30vh;
+  background-color: #52b3e0;
+  box-shadow: 10px 10px 5px grey;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0 30px;
+}
+
+.column .column-title {
+  color: white;
+  text-align: center;
+  background-color: blue;
+  padding: 10px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.column ul {
+  list-style-type: none;
 }
 
 .card {
+  position: relative;
+  margin-top: 10px;
+  padding: 1px 10px;
   background-color: yellowgreen;
+  border-radius: 4px;
+  box-shadow: 5px 5px 2px grey;
+}
+
+.btn-delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.4;
+  background-color: transparent;
+  border: none;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn-delete:hover {
+  opacity: 1;
+  background-color: red;
+  color: white;
+}
+
+.btn-addCard {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  width: 80%;
+  height: 25px;
+  color: white;
+  border: none;
+  text-align: center;
+  background-color: #09044e;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

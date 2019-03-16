@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
               self.removeColumn();
             }
         
-            if (event.target.classList.contains('add-card')) {
+            if (event.target.classList.contains('btn-addCard')) {
               self.addCard(new Card(prompt("Enter the name of the card")));
             }
         });
@@ -113,5 +113,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // ADDING CARDS TO COLUMNS
     todoColumn.addCard(card1);
     doingColumn.addCard(card2);
-    
+
 });
