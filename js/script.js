@@ -22,11 +22,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // sortowanie kart (z wykorzystaniem sortable.js)
     function initSortable(id) {
+        console.log (id);
         var el = document.getElementById(id);
-        var sortable = Sortable.create(el, {
+        var sortable = Sortable.create(el, {            
           group: 'kanban',
           sort: true
         });
+        console.log ('jest: ' + sortable.group);
       }
 
     // ***** tworzę klasy *****
