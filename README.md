@@ -8,4 +8,7 @@ Jedna tablica z możliwością dodawania kolumn.
 Każda kolumna może mieć dowolną ilość karteczek.
 Karteczki mogę przenosić między kolumnami.
 
+KLASY:
+Card
 
+Column

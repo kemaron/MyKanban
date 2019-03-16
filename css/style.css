@@ -1,0 +1,12 @@
+.board {
+  border: red solid;
+}
+
+.column {
+  border: green solid;
+}
+
+.card {
+  background-color: yellowgreen;
+}
+/*# sourceMappingURL=style.css.map */
