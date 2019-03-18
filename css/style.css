@@ -59,6 +59,10 @@ h1 {
   list-style-type: none;
 }
 
+.column-card-list {
+  min-height: 21vh;
+}
+
 .card {
   position: relative;
   margin-top: 10px;
